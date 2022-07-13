@@ -23,7 +23,7 @@ body {
 .game {
     height: 500px;
     width: 390px;
-    border: 1px solid black;
+    border: 8px solid black;
 }
 
 .results {
@@ -34,14 +34,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
+    justify-content: space-evenly;
+    
 }
 
 button {
     border-radius: 6px;
     padding: 10px;
     cursor: pointer;
+    border: none;
+}
+
+#nextLevel {
+    display: none;
 }
 
 
@@ -70,6 +75,7 @@ img {
 
 #player {
     position: relative;
-    top: 295px;
+    top: 250px;
     left: 130px;
 }
+
