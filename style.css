@@ -21,11 +21,9 @@ body {
 }
 
 .game {
-    height: 400px;
-    width: 600px;
-    border: 8px solid black;
-    margin: 25px;
-
+    height: 500px;
+    width: 390px;
+    border: 1px solid black;
 }
 
 .results {
@@ -43,4 +41,35 @@ body {
 button {
     border-radius: 6px;
     padding: 10px;
+    cursor: pointer;
+}
+
+
+img {
+    height: 100px;
+    width: 130px;
+}
+
+
+#computer  {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    animation: move 1s linear infinite;
+}
+
+/* define move annimation  */
+@keyframes move {
+    0% {
+        top: 0px
+    }
+    100% {
+        top: 501px;
+    }
+}
+
+#player {
+    position: relative;
+    top: 295px;
+    left: 130px;
 }
