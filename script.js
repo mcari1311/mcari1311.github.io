@@ -8,7 +8,15 @@ let characterBox = document.querySelector('.chooseCharacter')
 let count = 0
 
 function changeCar() {
-   document.getElementById('player').src = "images/bugatti.png"
+    document.getElementById('players').src="images/bugatti.png"
+    
+}
+function changeCarA() {
+    document.getElementById('players').src="images/ferrari.png"
+
+}
+function changeCarB() {
+    document.getElementById('players').src="images/aston-martin.png"
 }
 
 // randomly move computer car to each column and keep score of how many pass
