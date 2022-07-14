@@ -4,8 +4,12 @@ let results = document.querySelector('.results')
 let game = document.querySelector('.game')
 let score = document.getElementById('score')
 let nextLevelButton = document.getElementById('nextLevel')
-
+let characterBox = document.querySelector('.chooseCharacter')
 let count = 0
+
+function changeCar() {
+   document.getElementById('player').src = "images/bugatti.png"
+}
 
 // randomly move computer car to each column and keep score of how many pass
 computer.addEventListener("animationiteration", function() {
@@ -42,5 +46,8 @@ setInterval(function Gameover() {
         game.style.display = 'none'
         nextLevelButton.style.display = 'block'
         score.innerHTML = `SCORE: ${count}`
+        characterBox.style.display='none'
     }
 }, 5)
+
+
