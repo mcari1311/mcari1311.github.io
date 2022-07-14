@@ -105,7 +105,7 @@ img {
     position: relative;
     top: 0px;
     left: 0px;
-    animation: move 1s linear infinite;
+    animation: move .5s linear infinite;
 }
 
 /* define move annimation  */
