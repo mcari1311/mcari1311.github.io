@@ -24,7 +24,7 @@ h1 {
     position: relative;
     top: 400px;
     bottom: 0px;
-    left: 580px;
+    left: 800px;
 
     animation: move 1s linear infinite;
 }
