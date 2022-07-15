@@ -104,7 +104,7 @@ img {
     position: relative;
     top: 0px;
     left: 260px;
-    animation: move .7s linear infinite;
+    animation: move 1s linear infinite;
 
 }
 
