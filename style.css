@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+    background-image: url('images/track.png.jpg');
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 70px;
+}
+
+#redRaceCar {
+    height: 300px;
+    width: auto;
+    
+    position: relative;
+    top: 400px;
+    bottom: 0px;
+    left: 580px;
+
+    animation: move 1s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        right: 0px
+    }
+    100% {
+        left: 0px;
+    }
+}
+.startGame {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    border-radius: 6px;
+    padding: 20px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 25px;
+}
