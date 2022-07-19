@@ -19,6 +19,8 @@ This shows Level 3.
 
 List of Features 
 
+This game also features an interactive "choose your car" section, which allows the user to change their car image all throughout the game time. There is also a real time updated score board which shows the user the user how many cars they've past.
+
 List of Technologies Used 
 
 -HTML
