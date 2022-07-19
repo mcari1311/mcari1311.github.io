@@ -9,7 +9,7 @@ Brief Example
 
 Here are screenshots from the Race Car Game:
 
-![LEVEL 1 EXAMPLE] (/images/level1EX.png)
+![level 1 example](/images/level1EX.png)
 
 List of Features 
 
