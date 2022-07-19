@@ -3,7 +3,7 @@ Race Car Game
 
 Description 
 
-This project allows users to play a car game against the computer. Using the left and right arrow keys, the user will try to doge oncoming computer cars. There are 3 levels, made to get progressively more difficult. 
+This project allows users to play a car game against the computer. Using the left and right arrow keys, the user will try to doge oncoming computer cars. There are 3 levels, made to get progressively more difficult. Throughout each level users can see their score on the lower left corner and choose their prefered car. 
 
 Brief Example
 
@@ -11,7 +11,7 @@ Here are screenshots from the Race Car Game:
 
 ![level 1 example](/images/level1EX.png)
 
-This shows Level 1. 
+This shows Level 1.  
 
 ![level 3 example](/images/level3EX.png)
 
