@@ -11,6 +11,12 @@ Here are screenshots from the Race Car Game:
 
 ![level 1 example](/images/level1EX.png)
 
+This shows Level 1. 
+
+![level 3 example](/images/level3EX.png)
+
+This shows Level 3. 
+
 List of Features 
 
 List of Technologies Used 
