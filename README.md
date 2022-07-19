@@ -1,4 +1,5 @@
 # mcari1311.github.io
+Race Car Game 
 
 Description 
 
@@ -6,9 +7,9 @@ This project allows users to play a car game against the computer. Using the lef
 
 Brief Example
 
-```
+Here are screenshots from the Race Car Game:
 
-```
+![LEVEL 1 EXAMPLE] (/images/level1EX.png)
 
 List of Features 
 
